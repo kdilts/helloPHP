@@ -6,7 +6,7 @@
 	<body>
 		<?php
 			echo "Hello PHP";
-			echo "<h1>It is ".date("m/d/Y")."</h1>"
+			echo "<h1>It is ". date("h:i:sa") ." on ".date("m/d/Y")."</h1>"
 		?>
 	</body>
 </html>
