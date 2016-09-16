@@ -25,6 +25,17 @@
 		echo "2 == 3? " . trueFalse(2==3) . "<br>";
 		echo "2 == 2? " . trueFalse(2==2) . "<br><br>";
 
+		echo "for: ";
+		for($i = 0; $i < 5; $i++){ echo $i . " "; }
+		echo "<br>";
+
+		echo "while: ";
+		$i = 0;
+		while($i < 4){
+			echo $i++ . " ";
+		}
+		echo "<br>";
+
 		function trueFalse($bool){
 			if($bool){ return "true"; }else{ return "false"; }
 		}
