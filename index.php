@@ -17,7 +17,17 @@
 
 		echo "3 * 5 = " . mult(3,5) . "<br><br>";
 
+		echo "2 < 9? " . (2 < 9) . "<br>";
+		echo "2 == 3? " . (2==3) . "<br>";
+		echo "2 == 2? " . (2==2) . "<br><br>";
 
+		echo "2 < 9? " . trueFalse(2 < 9) . "<br>";
+		echo "2 == 3? " . trueFalse(2==3) . "<br>";
+		echo "2 == 2? " . trueFalse(2==2) . "<br><br>";
+
+		function trueFalse($bool){
+			if($bool){ return "true"; }else{ return "false"; }
+		}
 
 		function mult($x,$y){
 			echo "multiply($x,$y) was called<br>";
